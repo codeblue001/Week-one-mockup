@@ -1,0 +1,335 @@
+/* Styling for the header*/
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  min-width: 1470px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  margin-top: -5px;
+}
+
+.home {
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  padding-left: 15px;
+  margin-right: 5px;
+  background-color: #E0E0E0;
+}
+
+ul.main-nav {
+  display: flex;
+  list-style-type: none;
+  color: #787878;
+}
+
+ul li {
+  padding-right: 20px;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.button-one {
+  border: 1px solid #FF6347;
+  background-color: #FF6347;
+  color: white;
+  border-radius:  3px;
+  margin: 0 2px;
+  padding: 5px;
+}
+
+.button-two {
+  border: 1px solid #5993E5;
+  color: white;
+  background-color: #5993E5;
+  border-radius:  3px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+/* Styling for the main*/
+
+
+main {
+  background-color: #3B3E47;
+}
+
+.intro {
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.intro h1 {
+  font-size: 27px;
+}
+
+.intro p {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.tour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+    border: 1px solid #FF6347;
+    background-color: #FF6347;
+    color: white;
+    border-radius:  3px;
+    padding: 5px 10px;
+    margin: 20px 5px;
+    list-style-type: none;
+}
+
+.two {
+  border: 1px solid #5993E5;
+  color: white;
+  background-color: #5993E5;
+  border-radius:  3px;
+  padding: 5px 10px;
+  margin: 20px 5px;
+  list-style-type: none;
+}
+
+/* Styling for the section*/
+
+.intro-two {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.intro-two h1 {
+  font-size: 36px;
+}
+
+.intro-two p {
+  color: #787878;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.pitch {
+  display: flex;
+  margin: 0 auto;
+  width: 55%;
+}
+
+.border {
+  border: 1px solid #66CCFF;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #FBFBFB;
+}
+
+.invisible {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+/*Styling for section 2*/
+section.section-two {
+  background-color: #F5F5F5;
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.flex {
+  display: inline;
+}
+
+.push {
+  padding-left: 20px;
+}
+
+.down {
+  padding-left: 20px;
+  margin-bottom: -22px;
+}
+
+.left {
+  margin-left: 35px;
+  line-height: 170%;
+  width: 65%;
+}
+
+.bottom {
+  padding-bottom: 20px;
+}
+
+.black {
+  color: black;
+  font-weight: 700;
+}
+
+.padding{
+  margin-left: 12px;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+div.dgray{
+  display: flex;
+  color: #787878;
+  width: 55%;
+  margin: 20px auto;
+}
+
+
+.column-one, .column-two, .column-three {
+  text-align: left;
+  padding: 5px;
+  width: 1000px;
+  font-size: 10px;
+}
+
+hr {
+  border: 1px solid #E0E0E0;
+}
+
+.column-two {
+  border-left: 1px solid #E0E0E0;
+  line-height: 150%;
+}
+
+
+.column-one {
+  line-height: 100%;
+
+}
+.column-three {
+  border-left: 1px solid #E0E0E0
+}
+
+.hr-two, .hr-three {
+  display: flex;
+}
+
+.hr-one, .inline {
+  display: flex;
+  line-height: 50%;
+}
+
+.hr-one div h3 {
+  padding-right: 70px;
+  padding-left: 10px;
+}
+
+.hr-one div p {
+  border: 1px solid #E0E0E0;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+
+/* Styling for the footer*/
+footer {
+  margin: 0 auto;
+  width: 60%;
+}
+
+ul.footer-nav {
+  display: flex;
+  margin: 20px auto;
+  width: 35%;
+  list-style-type: none;
+  font-size: 14px;
+  align-items: center;
+}
+
+.footer-nav li {
+  margin: 0 auto;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: #696969;
+}
+
+.on-one {
+  border: 1px solid #FF6347;
+  background-color: #FF6347;
+  color: white;
+  border-radius:  3px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+footer p {
+  color: #909090;
+}
+
+.border, .invisible {
+  color: #787878
+}
+
+.pitch div {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.twitter {
+  border: 1px solid #1dcaff;
+  background-color: #1dcaff;
+  border-radius: 5px;
+}
+
+.facebook {
+  border: 1px solid #3b5998;
+  background-color: #3b5998;
+  border-radius: 5px;
+}
+
+h3.on-two{
+  color: white;
+  padding-right: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.twitter img {
+  padding-right: 8px;
+  padding-left: 10px;
+}
+
+.facebook img {
+  padding-right: 8px;
+  padding-left: 10px;
+}
+
+div.twitter{
+  margin-right: 15px;
+}
+
+#size {
+	font-size: 35px;
+}
